@@ -1,0 +1,21 @@
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    margin-bottom: 30px;
+}
+
+.footer-section{
+    
+}
+
+.footer-section p{
+    color: rgb(135, 135, 135);
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer-span{
+    color: white;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;  
+}

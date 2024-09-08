@@ -1,0 +1,129 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header-title-section{
+    color: rgb(195, 195, 195);
+    font-size: 40px;
+    letter-spacing: 5px;
+    margin-top:37px;
+    cursor: pointer;
+    transition:color 0.4s;
+}
+
+.header-title-section:hover{
+    color: #cf2e2e;
+}
+.header-subtitle-section{
+    color: rgb(195, 195, 195);
+    font-size: 12px;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 3px;
+    letter-spacing: 4px;
+}
+
+.header-divider{
+    background-color: rgb(50, 50, 50);
+    height: 0.06px;
+    width: 94%;
+    margin-top: 40px;
+}
+
+.header-menu-section{
+    margin-top: 20px;
+    display: flex;
+}
+.menu-button{
+    color :white;
+    background-color: transparent;
+    border: none;
+    font-size:14.5px;
+    margin: 0px 12px;
+    cursor: pointer;
+    transition: color 0.4s;
+}
+.header-menu-section button:hover{
+    color: #cf2e2e;
+}
+#arrow-down{
+    margin-right: 10px;
+}
+
+.arrow {
+    border: solid rgb(255, 255, 255);
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    margin: 0px 0px 3px -1px;
+    transition: border 0.5s;
+  }
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+#collection-button{
+    margin-right: 0px;
+}
+
+#collection-menu-section{
+    cursor: pointer;
+    margin-right: 10px;
+    position: relative;
+}
+
+
+#collection-menu-section:hover .arrow{
+    border: solid #cf2e2e;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    margin: 0px 0px 3px -1px;
+    transition: border 0.5s;
+    margin-right: 10px;
+}
+
+#collection-menu-section:hover #collection-button{
+    color: #cf2e2e;
+}
+
+#collection-menu-section:hover .tooltip-collection-menu{
+    visibility: visible;
+}
+
+
+.tooltip-collection-menu{
+    background-color: rgb(37, 37, 37);
+    position: absolute;
+    top: 40px;
+    left: -110px;
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 15px 10px;
+    visibility: hidden;
+    transition: visibility 0.2s ;
+}
+
+
+
+.collection-menu-button{
+    height: 40px;
+    letter-spacing: 2px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+.tooltip-collection-menu:hover #collection-button{
+    color: white;
+}
+
+
